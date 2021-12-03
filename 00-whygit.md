@@ -1,0 +1,26 @@
+### Why Git?
+
+When working on a project, you may want to
+
+- go back to a previous state (e.g. what did this project look like last week)
+- undo a change
+- work with one or more colleagues (without trampling over each other's work)
+- try an experiment; maybe keep it, maybe not
+
+You could
+
+    `MyTermPaper.docx`, 
+    `MyTermPaper-version2.docx`, 
+    `MyTermPaper-latest.docx`, 
+    `MyTermPaper-TuesdayAt3pm.docx`,
+    `MyTermPaper-latest2.docx`
+    ...
+
+and email copies to various friends for proof-reading
+
+    `MyTermPaper-forMary.docx`, 
+    `MyTermPaper-forTakeshi.docx`, 
+    `MyTermPaper-forMomAndDad.docx`, 
+
+Now which version did I send to Takeshi? Latest? Latest2? And how do I incorporate his changes?
+
