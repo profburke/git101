@@ -5,3 +5,5 @@
 #### Appending to a Commit
 
 #### Rolling Back a Commit
+
+#### Further Reading

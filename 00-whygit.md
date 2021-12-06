@@ -1,11 +1,16 @@
 ### Why Git?
 
+#### The Problem
+
 When working on a project, you may want to
 
 - go back to a previous state (e.g. what did this project look like last week)
 - undo a change
+- track who made which change when
 - work with one or more colleagues (without trampling over each other's work)
 - try an experiment; maybe keep it, maybe not
+
+#### A Solution?
 
 You could
 
@@ -24,3 +29,4 @@ and email copies to various friends for proof-reading
 
 Now which version did I send to Takeshi? Latest? Latest2? And how do I incorporate his changes?
 
+#### Further Reading
