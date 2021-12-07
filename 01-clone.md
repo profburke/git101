@@ -14,6 +14,8 @@ _Let's take a look at what that did..._
 - We now have a local copy of this repository, often called a _working copy_.
 - Our local repo has all the project's files. It also has a hidden subdirectory, _.git_, that is essentially a database with details of all the changes made to the project since it was initialized.
 
+[TODO: mention `origin`]
+
 _One more thing..._
 
 Git supports two different protocols. We saw SSH above. We can also use HTTP. SSH is often more convenient, but requires you to configure the remote with your SSH public key. 
