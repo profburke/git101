@@ -14,7 +14,7 @@ _Let's take a look at what that did..._
 - We now have a local copy of this repository, often called a _working copy_.
 - Our local repo has all the project's files. It also has a hidden subdirectory, _.git_, that is essentially a database with details of all the changes made to the project since it was initialized.
 
-[TODO: mention `origin`]
+When you clone a working copy from a remote repository, by default, the remote is given the name _origin_ and you can refer to it by that name in various operations.
 
 _One more thing..._
 
