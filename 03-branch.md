@@ -9,21 +9,41 @@ What is a branch? A branch is similar to a cloned repository &mdash; branching g
 Branches are _not_ cloned repositories &mdash; for one thing, there is a lot less overhead than a clone. But thinking of branches this way is a good metaphor to start with.
 
 ```
-git checkout -b experiment-1
+git branch experiment-1
 ```
 
-I'll add a file to this branch:
+We then need to specify that we want our changes to appear in this new branch
 
 ```
-cat > a-new-file.txt
-here are my file's contents
-^d
+git checkout experiment-1
+```
+
+I'll add a file to this branch
+
+```
+// create a-new-file.txt using editor
 
 git add a-new-file.txt
 git commit -m "add file to branch"
 ```
 
-It turns out you've been working on a branch all along, _the main branch_. Let's switch back to it:
+Note that if we run the `branch` command without specifying a branch name, it will give us a list of all the branches in the repository
+
+```
+git branch
+
+// output follows...
+* experiment-1
+  main
+```
+
+The `*` indicates on which branch we are currently working.
+
+But what's this `main`?
+
+It turns out with Git, you're always working on some branch. When we first created the repository, we were working on the default branch called, _main_. 
+
+Let's switch back to it:
 
 ```
 git checkout main
@@ -51,7 +71,7 @@ git checkout main
 
 1. Create a new branch called `hotfix`
 2. Add a file `patch.c` (_just put 1-2 lines of random text in it_) and commit it.
-3. Switch back to the main branch. Will the `` file be there?
+3. Switch back to the main branch. If you list the  directory, will `patch.c` be there?
 4. Switch to the `experiment-1` branch. Which files will be there?
 
 #### Further Reading
