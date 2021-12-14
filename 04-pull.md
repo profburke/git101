@@ -6,6 +6,8 @@ Further suppose you want to get those changes from the remote repository and inc
 
 `Pull` to the rescue.
 
+![git pull image](images/pull.png)
+
 ```
 git pull
 ```

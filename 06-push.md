@@ -4,6 +4,8 @@ Earlier we glossed over the question of how do you get changes from your working
 
 The `push` command will take care of that for us.
 
+![git push image](images/push.png)
+
 ```
 git push
 ```

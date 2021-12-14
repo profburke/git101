@@ -2,6 +2,8 @@
 
 In order to start working on an established project, it is necessary to get a (local) copy of the project. This is done with the `clone` command.
 
+![git clone image](images/clone.png)
+
 For example:
 
 ```

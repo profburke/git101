@@ -6,6 +6,8 @@ If you `pull`, those changes will show up in your local main branch, not the bra
 
 Well, I'm sure you've guessed from the title of this section: you use the Git `merge` command.
 
+![git merge image](images/merge.png)
+
 ```
 git merge main
 ```

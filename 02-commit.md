@@ -9,6 +9,8 @@ git add some-file.c
 git commit -m "this string is a commit comment"
 ```
 
+![git commit image](images/commit.png)
+
 #### Try it Together
 
 Edit the file, TODO.md, and add the following lines at the bottom:

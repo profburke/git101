@@ -4,6 +4,8 @@ The Git commit command solves one of the problems for which we use version contr
 
 There is another important ability that Git enables: allowing more than one person to easily work on the same project. The feature that enables this is _branching_.
 
+![git branch image](images/branch.png)
+
 What is a branch? A branch is similar to a cloned repository &mdash; branching gives you a new copy of your project. Once you have branched, the changes you make do not effect your original working copy unless at some point you _merge_ them. If you delete a branch without merging its changes, then it is as if you never did any of the work.
 
 Branches are _not_ cloned repositories &mdash; for one thing, there is a lot less overhead than a clone. But thinking of branches this way is a good metaphor to start with.
