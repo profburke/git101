@@ -1,8 +1,8 @@
 ### Git Branch
 
-The Git commit command solves one of the problems for which we use version control: it lets us go back in time and examine the state of the project at any point in the past. It also allows us to undo changes when necessary.
+Recording changes with the commit command, is what enables Git to solve one of the problems for which we use version control: going back in time and examining the state of the project at any point in the past. And it underpins the functionality that allows us to undo changes when necessary.
 
-There is another important ability that Git enables: allowing more than one person to easily work on the same project. The feature that enables this is _branching_.
+There is another important function that Git gives us: allowing more than one person to easily work on the same project. The feature that enables this is _branching_.
 
 ![git branch image](images/branch.png)
 
@@ -39,11 +39,11 @@ git branch
   main
 ```
 
-The `*` indicates on which branch we are currently working.
+The `*` indicates the branch to which our changes will be committed.
 
 But what's this `main`?
 
-It turns out with Git, you're always working on some branch. When we first created the repository, we were working on the default branch called, _main_. 
+It turns out with Git, you're always working on _some_ branch. When we first created the repository, we were working on the default branch called, **main**. 
 
 Let's switch back to it:
 
@@ -60,6 +60,8 @@ Let's create a third branch: `experiment-2`:
 ```
 git checkout -b experiment-2
 ```
+
+The `-b` flag to the checkout command is a shortcut that combines the effects of creating a new branch and switching to it.
 
 Will we see `a-new-file.txt` on this newly-created branch? List the directory and see!
 
