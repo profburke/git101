@@ -4,32 +4,41 @@ In order to start working on an established project, it is necessary to get a (l
 
 ![git clone image](images/clone.png)
 
-For example:
+For example, I could clone the project with all this slides, by typing
 
 ```
-git clone git@github.com:profburke/git101.git
+git clone https://github.com/profburke/git101
 ```
 
 _Let's take a look at what that did..._
 
-- The remote copy of the project is called a *repository* (_repo_ for short).
-- We now have a local copy of this repository, often called a _working copy_.
-- Our local repo has all the project's files. It also has a hidden subdirectory, _.git_, that is essentially a database with details of all the changes made to the project since it was initialized.
+There is now a directory on my computer, `git101` which has all the slides.
 
-When you clone a working copy from a remote repository, by default, the remote is given the name _origin_ and you can refer to it by that name in various operations.
+_Some terminology_
 
-_One more thing..._
+- A **repository** (_repo_ for short) is a directory containing the project's files as well as a sub-directory, named `.git`, that contains bookkeeping information used by Git.
+- A repository found on another computer is known as a **remote repository** and is sometimes just referred to as a _remote_.
+- A repository on your desktop or laptop is sometimes called a **local repository**, or a **working copy**.
+- The _bookkeeping files_, mentioned above, forms what is essentially a database that contains details of all the changes made to the project since it was initialized.
 
-Git supports two different protocols. We saw SSH above. We can also use HTTP. SSH is often more convenient, but requires you to configure the remote with your SSH public key. 
+_Read this later_
+
+Since the remote repository and the local repository both have the _bookkeeping files_, you might wonder if there's any practical difference between the _remote_ and the _local_.
+
+And you'd be right to wonder this. Git doesn't make any distinctions between different repositories for a given project. To Git, one repo is as good as another and it is only by convention that we consider a paricular repo the _source of truth_ for a project.
+
+That's why Git is an example of a **distributed** version control system. Other version control systems, such as _subversion_ are not distributed and do have a distinguised central source of truth.
+
 
 #### Try it Together
 
-Let's try cloning using HTTPS:
+Let's try cloning. Enter the following command
 
 ```
-git clone https://github.com/profburke/git101.git
+git clone https://github.com/profburke/git101
 ```
 
+Now, you too, should have a copy of all the slides on your computer.
 
 #### Your Turn
 
