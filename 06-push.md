@@ -10,7 +10,7 @@ The `push` command will take care of that for us.
 git push
 ```
 
-will incorporate the changes from your current branch into the remote, _origin_, repository.
+will incorporate the changes from your current branch into the remote repository.
 
 There is one situation to watch out for. When you create a new branch in your working directory, if you attempt to push it you will receive an error message 
 
@@ -27,9 +27,9 @@ With the appropriate command line switches to the `push` command you can avoid s
 
 #### Try it Together
 
-To avoid stepping on each other's toes, let's create new branches named `branch-<lastname>-<firstname>.
+To avoid stepping on each other's toes, let's create new branches named `branch-&lt;lastname&gt;-&lt;firstname&gt;.
 
-Make sure you're in main. So, for example, I'll type
+Make sure you're in main. So, for example, the commands I should type are
 
 ```
 git checkout main
@@ -38,7 +38,7 @@ git checkout -b branch-burke-matthew
 
 Then in this new branch, create a short text file and commit it.
 
-Now let's try and push
+Now try and push
 
 ```
 git push
@@ -66,7 +66,7 @@ Just to be clear, the initial `--set-upstream` from a new branch only needs to b
 #### Your Turn
 
 1. Create an additional commit on your new branch. Either edit an existing file, or add a new file.
-2. Now push the commits up to _origin_.
+2. Now push the commits up to the remote repository.
 
 
 #### Further Reading
