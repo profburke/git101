@@ -76,7 +76,7 @@ git checkout main
 1. Create a new branch called `hotfix`
 2. Add a file `patch.c` (_just put 1-2 lines of random text in it_) and commit it.
 3. Switch back to the main branch. If you list the  directory, will `patch.c` be there?
-4. Switch to the `experiment-1` branch. Which files will be there?
+4. Switch to the `experiment-2` branch. Which files will be there?
 
 #### Further Reading
 
