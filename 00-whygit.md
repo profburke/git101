@@ -12,7 +12,11 @@ When working on a project, you may want to
 
 #### A Solution?
 
-You could
+Suppose you are writing a term paper. You have various drafts where you've tried various arguments, you've sent out copies to classmates for proof-reading, etc. 
+
+How do you manage all these versions?
+
+You could save lots of copies with _clever_ names
 
     `MyTermPaper.docx`, 
     `MyTermPaper-version2.docx`, 
@@ -27,6 +31,11 @@ and email copies to various friends for proof-reading
     `MyTermPaper-forTakeshi.docx`, 
     `MyTermPaper-forMomAndDad.docx`, 
 
-Now which version did I send to Takeshi? Latest? Latest2? And how do I incorporate his changes?
+Now which version did copy when I sent it to Takeshi? Latest? Latest2? And how do I incorporate his changes?
 
 #### Further Reading
+
+- https://blog.robertelder.org/what-is-git/
+- https://towardsdatascience.com/what-is-git-and-why-is-it-so-important-dce559b27833
+- https://about.gitlab.com/topics/version-control/
+
