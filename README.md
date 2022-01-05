@@ -1,7 +1,7 @@
 ### Git 101
 
 
-#https://github.com/profburke/git101
+# https://github.com/profburke/git101
 
 This repository contains the slides and exercises for the Git 101 workshop presented as part of the January 2022 Software Engineering Summit.
 
