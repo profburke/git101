@@ -2,6 +2,8 @@
 
 Here are some good references on Git
 
+- An [episode of Computerphile](https://www.youtube.com/watch?v=92sycL8ij-U) with a great overview of Git
+
 - [Git Kraken Learn](https://www.gitkraken.com/learn), and in particular [this article](https://www.gitkraken.com/blog/git-vs-github) is worth a read.
 
 - Run into a problem? Try [Dangit Git](https://dangitgit.com/en)
